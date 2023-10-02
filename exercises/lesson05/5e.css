@@ -1,0 +1,35 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.stats {
+  color: rgb(247, 62, 49);
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.product {
+  font-size: 22px;
+  font-weight: bold;
+}
+.feature {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.price {
+  margin-bottom: 22px;
+}
+.buy {
+  background-color: rgb(28, 128, 229);
+  color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}

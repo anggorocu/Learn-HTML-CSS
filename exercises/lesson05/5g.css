@@ -1,0 +1,27 @@
+p {
+  font-family: Arial;
+  margin: 0%;
+}
+.user {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.user-name {
+  font-weight: normal;
+  color: gray;
+}
+.time-post {
+  font-weight: normal;
+  color: gray;
+}
+.post {
+  margin-bottom: 16px;
+  line-height: 24px;
+}
+.mention {
+  color: rgb(70, 140, 238);
+  cursor: pointer;
+}
+.mention:hover {
+  text-decoration: underline;
+}

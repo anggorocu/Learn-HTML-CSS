@@ -1,0 +1,24 @@
+p {
+  font-family: Arial;
+  margin: 0%;
+}
+.number {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+.currency {
+  font-size: 18px;
+  color: gray;
+}
+.now {
+  font-size: 18px;
+  color: green;
+  margin-bottom: 10px;
+}
+.after {
+  font-size: 18px;
+  color: gray;
+}
+.after-percent {
+  color: red;
+}

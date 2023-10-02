@@ -1,0 +1,23 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.shop-header {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.shop-post {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+.shop-link {
+  color: rgb(55, 118, 212);
+  font-size: 20px;
+}
+.shop-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
