@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>13g</title>
+    <style>
+      p {
+        font-family: Arial;
+        margin: 0;
+      }
+
+      .container {
+        display: flex;
+        width: 420px;
+      }
+
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        object-fit: cover;
+        margin-right: 12px;
+      }
+
+      .user-info {
+        display: flex;
+        margin-bottom: 6px;
+      }
+
+      .name {
+        font-weight: bold;
+        margin-right: 4px;
+      }
+
+      .username {
+        color: gray;
+      }
+
+      .post {
+        line-height: 22px;
+        margin-bottom: 10px;
+      }
+
+      .attachment {
+        display: flex;
+        align-items: center;
+
+        border: 1px;
+        border-style: solid;
+        border-color: gray;
+        border-radius: 18px;
+
+        overflow: hidden;
+      }
+
+      .thumbnail {
+        width: 100px;
+        height: 100px;
+        background-color: gray;
+        margin-right: 12px;
+      }
+
+      .attach-desc {
+        flex: 1;
+      }
+
+      .website {
+        color: gray;
+        margin-bottom: 4px;
+      }
+
+      .video-title {
+        line-height: 22px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div><img src="coffee.jpg" alt="coffee-latte" /></div>
+      <div>
+        <div class="user-info">
+          <p class="name">supersimple.dev</p>
+          <p class="username">@SuperSimpleDev</p>
+        </div>
+        <p class="post">
+          What is backend web development? A complete overview. New video is up!
+        </p>
+        <div class="attachment">
+          <div class="thumbnail"></div>
+          <div class="attach-desc">
+            <p class="website">youtube.com</p>
+            <p class="video-title">
+              Backend web development - a complete overview (2021)
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

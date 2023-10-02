@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>14e</title>
+    <style>
+      body {
+        height: 3000px;
+      }
+
+      .header {
+        height: 50px;
+        background-color: white;
+        border-bottom-width: 1px;
+        border-bottom-color: gray;
+        border-bottom-style: solid;
+
+        padding-left: 50px;
+        padding-right: 50px;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .account {
+        display: flex;
+        align-items: center;
+      }
+
+      img {
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        border-radius: 20px;
+        margin-right: 12px;
+      }
+
+      p {
+        font-family: Arial;
+        font-weight: bold;
+      }
+
+      .add-button {
+        background-color: rgb(46, 100, 208);
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 4px;
+        padding: 10px;
+        margin-right: 4px;
+      }
+
+      .message-button {
+        font-weight: bold;
+        border: none;
+        border-radius: 4px;
+        padding: 10px;
+        padding-left: 14px;
+        padding-right: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="account">
+        <img src="coffee.jpg" alt="coffee-latte" />
+        <p>Coffee</p>
+      </div>
+      <div class="button">
+        <button class="add-button">Add Friend</button>
+        <button class="message-button">Message</button>
+      </div>
+    </div>
+  </body>
+</html>
