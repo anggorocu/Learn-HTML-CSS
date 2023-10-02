@@ -1,0 +1,22 @@
+body {
+    /* This style below will be inherited */
+
+    font-family: Roboto, Arial;
+
+    margin: 0;
+    padding-top: 86px;
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: rgb(247, 247, 247);
+}
+
+@media (min-width: 1000.1px) {
+    body {
+        padding-left: 200px;
+    }
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
