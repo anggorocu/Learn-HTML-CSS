@@ -1,0 +1,14 @@
+p{
+    font-family: Montserrat;
+    text-align: center;
+    margin: 0%;
+}
+.header {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+.linkable:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
